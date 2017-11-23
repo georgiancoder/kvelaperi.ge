@@ -1,0 +1,166 @@
+header div.h div.wrapper nav span.auth{
+	font-family: "DejaVu Neue Caps";
+}
+header div.search div.wrapper span.placeholder{
+	font-family: "BPG Arial Caps 2010";
+}
+header div.h div.wrapper nav ul.topmenu li a{
+	font-family: "BPG Arial Caps 2010";
+}
+footer div.f div.wrapper ul.footermenu li a{
+	font-family: "DejaVu Neue";
+}
+footer div.copy div.wrapper span.c{
+	font-family: "BPG Anna";
+}
+section.maincategories div.wrapper ul.maincat li a{
+	font-family: "DejaVu Neue Caps";
+}
+section.bradcrump a, section.bradcrump span{
+	font-family: "BPG Arial Caps 2010";
+}
+main div.wrapper section.addauto section.cont div.gallery div.main span.vip{
+	font-family: "Arial";
+}
+main div.wrapper section.addauto section.cont div.details div.h, main div.wrapper section.addhome section.cont div.details div.h, main div.wrapper section.addparts section.cont div.details div.h, main div.wrapper section.addmarket section.cont div.details div.h, main div.wrapper section.addjob section.cont div.details div.h{
+	font-family: "BPG Arial Caps 2010";
+}
+main div.wrapper section.addjob section.cont div.details div.cont, main div.wrapper section.addparts section.cont div.details div.cont, main div.wrapper section.addmarket section.cont div.details div.cont, main div.wrapper section.addauto section.cont div.details div.cont, main div.wrapper section.addhome section.cont div.details div.cont{
+	font-family: "BPG Arial Caps 2010";
+}
+main div.wrapper section.addjob section.cont div.details div.cont div.comment p, main div.wrapper section.addparts section.cont div.details div.cont div.comment p, main div.wrapper section.addmarket section.cont div.details div.cont div.comment p, main div.wrapper section.addauto section.cont div.details div.cont div.comment p, main div.wrapper section.addhome section.cont div.details div.cont div.comment p{
+	font-family: "BPG Arial 2010";
+}
+main div.wrapper section.addjob section.cont div.details div.cont div.comment ul, main div.wrapper section.addjob section.cont div.details div.cont div.comment span.title{
+	font-family: "BPG Arial 2010";
+}
+
+main div.wrapper section.cont section.yvelaferi div.carouselheader a.more{
+	font-family: "bpg_le_studio Caps";
+}
+main div.wrapper section.cont div.carouselheader div.title{
+	font-family: "BPG Arial Caps 2010";
+}
+main div.wrapper section.cont div.homecarousel div.item{
+	font-family: "Arial";
+}
+main div.wrapper section.cont ul.sidebarmenu li a{
+	font-family: "DejaVu Neue";
+}
+
+main div.wrapper section.cont section.udzravi section.statements div.h span.title{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+
+section.search select, section.search input[type="text"]{
+	font-family: "DejaVu Neue";
+}
+section.search input[type="submit"]{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+section.search div.h{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+
+main div.wrapper section.cont section.udzravi section.statements section.lastadded div.statements div.statement{
+	font-family: "Roboto";
+}
+main div.wrapper section.cont section.udzravi section.statements section.vipstatements div.statements div.statement span.price, main div.wrapper section.cont section.udzravi section.statements section.vipplusstatements div.statements div.statement span.price, main div.wrapper section.cont section.jobs section.statements section.vipstatements div.statements div.statement span.price, main div.wrapper section.cont section.jobs section.statements section.vipplusstatements div.statements div.statement span.price{
+	font-family: "Roboto";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.udzravi section.statements section.vipstatements div.statements div.statement span.year, main div.wrapper section.cont section.udzravi section.statements section.vipplusstatements div.statements div.statement span.year, main div.wrapper section.cont section.jobs section.statements section.vipstatements div.statements div.statement span.year, main div.wrapper section.cont section.jobs section.statements section.vipplusstatements div.statements div.statement span.year{
+	font-weight: bold;
+	font-family: "Roboto";
+}
+
+main div.wrapper div.login{
+	font-family: "BPG Arial Caps 2010";
+}
+
+main div.wrapper div.profile{
+	font-family: "BPG Arial Caps 2010";
+}
+main div.wrapper div.profile div.cont div.menu ul li span.amount{
+	font-weight: bold;
+}
+
+main div.wrapper section.cont section.jobs section.search div.h{
+	font-family: "bpg_web_002_caps";
+	font-weight: normal;
+}
+
+main div.wrapper section.cont section.jobs section.search form table tbody tr td select, main div.wrapper section.cont section.jobs section.search form table tbody tr td input[type="text"]{
+	font-family: "BPG Arial 2010";
+}
+main div.wrapper section.cont section.jobs section.left div.h{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.jobs section.left{
+	font-family: "BPG Arial Caps 2010";
+}
+
+main div.wrapper section.cont section.auto section.search h2{
+	font-family: "DejaVu Neue Caps";
+}
+
+main div.wrapper section.cont section.auto span.title{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.auto span.vip{
+	font-family: Arial;
+	font-weight: bold;
+}
+main div.wrapper section.cont section.auto section.statements div.statements div.statement h3, main div.wrapper section.cont section.auto section.vipstatements div.statements div.statement a{
+	font-family: "Roboto";
+}
+main div.wrapper section.cont section.auto section.statements div.statements div.statement div.p span, main div.wrapper section.cont section.auto section.statements div.statements div.statement div.p span, main div.wrapper section.cont section.auto section.vipstatements div.statements div.statement span.price, main div.wrapper section.cont section.auto section.vipstatements div.statements div.statement span.year{
+	font-family: "Roboto";
+	font-weight: bolder;
+}
+
+main div.wrapper section.cont section.parts section.search div.h button{
+	font-family: "DejaVu Neue Caps";
+}
+
+main div.wrapper section.cont section.parts section.statements div.h span.title{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.parts section.statements div.h span.vip{
+	font-family: Arial;
+	font-weight: bold;
+}
+main div.wrapper section.cont section.parts section.statements section.vipstatements div.statements div.statement a, main div.wrapper section.cont section.parts section.statements section.lastadded div.statements div.statement h3{
+	font-family: "Roboto";
+}
+
+main div.wrapper section.cont section.parts section.statements section.lastadded div.statements div.statement div.p span, main div.wrapper section.cont section.parts section.statements section.vipstatements div.statements div.statement span.price, main div.wrapper section.cont section.parts section.statements section.vipstatements div.statements div.statement span.year{
+	font-family: "Roboto";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.store section.statements section.vipstatements div.h span.vip, main div.wrapper section.cont section.store section.statements section.vipplusstatements div.h span.vip{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+main div.wrapper section.cont section.store section.statements section.vipstatements div.h span.title, main div.wrapper section.cont section.store section.statements section.vipplusstatements div.h span.title{
+	font-family: "DejaVu Neue Caps";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.store section.statements section.vipstatements div.statements div.statement a, main div.wrapper section.cont section.store section.statements section.vipplusstatements div.statements div.statement a{
+	font-family: "Roboto";
+}
+main div.wrapper section.cont section.store section.statements section.vipstatements div.statements div.statement span.price, main div.wrapper section.cont section.store section.statements section.vipplusstatements div.statements div.statement span.price, main div.wrapper section.cont section.store section.statements section.vipstatements div.statements div.statement span.year, main div.wrapper section.cont section.store section.statements section.vipplusstatements div.statements div.statement span.year{
+	font-family: "Roboto";
+	font-weight: bold;
+}
+main div.wrapper section.cont section.store section.statements section.lastadded div.statements div.statement div.pic div.p span{
+	font-family: "Roboto";
+	font-weight: bold;
+}

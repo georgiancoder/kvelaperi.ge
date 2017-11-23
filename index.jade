@@ -1,0 +1,171 @@
+- var topmenu = ["მაღაზიები","დახმარება","რეკლამა","კონტაქტი"]
+- var footermenu = ["რეკლამა","კონტაქტი","დახმარება","სამომ. შეთანხმება"]
+- var maincat = ["ავტომობილები","უძრავი ქონება","ინტერნეტ მაღაზია","ავტომ. ნაწილები","დასაქმების ფორუმი"]
+- var autocarousel = [["image6.png","Mercedes-Benz ML 350","$27 000"],["image6.png","Mercedes-Benz ML 350","$27 000"],["image6.png","Mercedes-Benz ML 350","$27 000"],["image6.png","Mercedes-Benz ML 350","$27 000"],["image6.png","Mercedes-Benz ML 350","$27 000"],["image6.png","Mercedes-Benz ML 350","$27 000"]]
+- var autopartscarousel = [["image5.png","Mercedes-Benz ML 350","$27 000"],["image5.png","Mercedes-Benz ML 350","$27 000"],["image5.png","Mercedes-Benz ML 350","$27 000"],["image5.png","Mercedes-Benz ML 350","$27 000"],["image5.png","Mercedes-Benz ML 350","$27 000"],["image5.png","Mercedes-Benz ML 350","$27 000"]]
+- var udzravicarousel = [["image4.png","Mercedes-Benz ML 350","$27 000"],["image4.png","Mercedes-Benz ML 350","$27 000"],["image4.png","Mercedes-Benz ML 350","$27 000"],["image4.png","Mercedes-Benz ML 350","$27 000"],["image4.png","Mercedes-Benz ML 350","$27 000"],["image4.png","Mercedes-Benz ML 350","$27 000"]]
+- var onlineshopcarousell = [["image3.png","Mercedes-Benz ML 350","$27 000"],["image3.png","Mercedes-Benz ML 350","$27 000"],["image3.png","Mercedes-Benz ML 350","$27 000"],["image3.png","Mercedes-Benz ML 350","$27 000"],["image3.png","Mercedes-Benz ML 350","$27 000"],["image3.png","Mercedes-Benz ML 350","$27 000"]]
+- var employforumcarousel = [["image2.png","Mercedes-Benz ML 350","$27 000"],["image2.png","Mercedes-Benz ML 350","$27 000"],["image2.png","Mercedes-Benz ML 350","$27 000"],["image2.png","Mercedes-Benz ML 350","$27 000"],["image2.png","Mercedes-Benz ML 350","$27 000"],["image2.png","Mercedes-Benz ML 350","$27 000"]]
+- var arvici = ["img1.png","img1.png","img1.png","img1.png"]
+- var maincaticons = ["cat1.png","cat2.png","cat3.png","cat4.png","cat5.png"]
+- var mainsliderlist = ["slider.png","slider.png","slider.png"]
+- var banners = ["banner7.png","banner6.png","banner5.png","banner4.png","banner3.png"]
+- var siteTitle = "yvelaferi.ge"
+- var css = "css/"
+- var img = "images/"
+- var js = "js/"
+
+
+doctype html
+html
+	head
+		title= siteTitle
+		meta(charset='utf-8')
+		link(rel='stylesheet', href=css + 'normalize.css')
+		link(rel='stylesheet', href=css + 'owl.carousel.css')
+		link(rel='stylesheet', href=css + 'owl.theme.css')
+		link(rel='stylesheet', href=css + 'style.css')
+		link(rel='stylesheet', href=css + 'fonts.css')
+		link(rel='stylesheet', href=css + 'ka.css')
+		// [if lt IE 9]
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js')
+		// [endif]
+	body
+		//header section
+		header
+			div.grad
+			div.h
+				div.wrapper
+					a.logo
+					nav
+						ul.topmenu
+							each val in topmenu
+								if topmenu[0] == val
+									li.active
+										a(href="#")= val
+								else
+									li
+										a(href="#")= val
+						span.auth
+							img(src=img + "usermale.png")
+							| ავტორიზაცია
+			div.search
+				div.wrapper
+					span.placeholder შეიყვანეთ საძიებო სიტყვა
+						span (მაგ. მერსედესი, ნაიკი, სონი ა.შ)
+					input(type="button", class="searchbtn")
+		//main categories
+		section.maincategories
+			div.wrapper
+				ul.maincat
+					- for(var i = 0; i < maincat.length; i++)
+						li
+							a(href="#")
+								img(src=img + maincaticons[i])
+								=maincat[i]
+
+		//main section
+		main
+			div.wrapper
+				//main slider
+				section.mainslider
+					div(id="mainslider", class="owl-carousel")
+						each val in mainsliderlist
+							div
+								img(src=img + val)
+				section.cont
+					section.yvelaferi
+						section.auto
+							div.carouselheader
+								div.title
+									span.vip VIP
+									| ავტომობილები
+								a(href="#" class="more") იხილეთ ყველა 
+									img(src=img + "morearrow.png")
+							div(class="autocarousel homecarousel owl-carousel owl-theme")
+								each val in autocarousel
+									div.item
+										img(src=img + val[0])
+										a(href="#")=val[1]
+										span.price=val[2]
+						section.arvici
+							each val in arvici
+								img(src=img + val)
+						section.autoparts
+							div.carouselheader
+								div.title
+									span.vip VIP
+									| ავტომობილის ნაწილები
+								a(href="#" class="more") იხილეთ ყველა 
+									img(src=img + "morearrow.png")
+							div(class="autopartscarousel homecarousel owl-carousel owl-theme")
+								each val in autopartscarousel
+										div.item
+											img(src=img + val[0])
+											a(href="#")=val[1]
+											span.price=val[2]
+						div.banner
+							img(src=img + "banner2.png")
+						section.udzravi
+							div.carouselheader
+								div.title
+									span.vip VIP
+									| უძრავი ქონება / ფართები
+								a(href="#" class="more") იხილეთ ყველა 
+									img(src=img + "morearrow.png")
+							div(class="udzravicarousel homecarousel owl-carousel owl-theme")
+								each val in udzravicarousel
+										div.item
+											img(src=img + val[0])
+											a(href="#")=val[1]
+											span.price=val[2]
+						section.onlineshop
+							div.carouselheader
+								div.title
+									span.vip VIP
+									| ონლაინ მაღაზია / შოპინგი
+								a(href="#" class="more") იხილეთ ყველა 
+									img(src=img + "morearrow.png")
+							div(class="onlineshopcarousel homecarousel owl-carousel owl-theme")
+								each val in onlineshopcarousell
+										div.item
+											img(src=img + val[0])
+											a(href="#")=val[1]
+											span.price=val[2]
+						div.banner
+							img(src=img + "banner.png")
+						section.employforum
+							div.carouselheader
+								div.title
+									span.vip VIP
+									| დასაქმების ფორუმი
+								a(href="#" class="more") იხილეთ ყველა 
+									img(src=img + "morearrow.png")
+							div(class="employforumcarousel homecarousel owl-carousel owl-theme")
+								each val in employforumcarousel
+										div.item
+											img(src=img + val[0])
+											a(href="#")=val[1]
+											span.price=val[2]
+					aside
+						each val in banners
+							img(src=img + val)
+		//footer section
+		footer
+			div.f
+				div.wrapper
+					a.logo
+					ul.footermenu
+						each val in footermenu
+							li
+								a(href="#")=val
+			div.copy
+				div.wrapper
+					span.c YVELAFERI.GE &copy; ყველა უფლება დაცულია
+					span.counters
+						img(src=img + "counter1.png")
+						img(src=img + "counter2.png")
+						img(src=img + "counter3.png")
+		script(src=js + "jquery-3.1.0.min.js")
+		script(src=js + "owl.carousel.min.js")
+		script(src=js + "main.js")
